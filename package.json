@@ -1,17 +1,17 @@
 {
-  "name": "typist",
+  "name": "typographer",
   "version": "0.1.0",
   "description": "React component that simulates a person typing.",
   "main": "lib/index.js",
   "author": "",
-  "homepage": "https://github.com//typist",
+  "homepage": "https://github.com/ColdSauce/typographer",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com//typist.git"
+    "url": "https://github.com/coldsauce/typographer.git"
   },
   "bugs": {
-    "url": "https://github.com//typist/issues"
+    "url": "https://github.com/coldsauce/typographer/issues"
   },
   "files": [
     "css",

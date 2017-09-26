@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-class Typist extends React.Component {
+class Typographer extends React.Component {
     constructor(props) {
         super(props);
         this.state = { statefulGenerator: this.generator(props.text) };
@@ -50,4 +50,4 @@ class Typist extends React.Component {
     }
 }
 
-export default Typist;
+export default Typographer;
