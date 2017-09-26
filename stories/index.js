@@ -4,5 +4,5 @@ import Typist from './../src';
 
 storiesOf('Typist', module)
   .add('with text', () => (
-    <Typist>Hello Button</Typist>
+    <Typist text="Hello Button" speed = {1000}/>
   ));
