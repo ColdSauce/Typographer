@@ -4,6 +4,8 @@ Warning, this is a work in progress. We are going to make it so that this works 
 
 Typographer is a React component that simulates a person typing.
 
+![Gif](./screencap.gif)
+
 ## Installation
 
 `npm install --save typographer`
