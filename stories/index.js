@@ -10,4 +10,10 @@ storiesOf('Typographer', module)
     <Typographer speed = {100}>
       Hello Button
     </Typographer>
-  ));;
+  ))
+  .add('with nested children', () => (
+    <Typographer speed = {100}>
+      <div>Hello World</div>
+      <div>Hello World 2</div>
+    </Typographer>
+  ));
