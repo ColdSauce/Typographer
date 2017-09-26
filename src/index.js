@@ -29,15 +29,21 @@ export default class Typographer extends React.PureComponent {
 	}
 
 	generatorHelper(text, currentIndex) {
-		const toReturn = {
-			text: text.substring(0, currentIndex + 1),
-			next: () => this.generatorHelper(text, currentIndex + 1),
-		};
+    switch (typeof text) {
+      case "object":
+        return this.generatorHelper(text.map((t) => t.props.children).join(''), currentIndex)
+      case "string":
+      default:
+        const toReturn = {
+          text: text.substring(0, currentIndex + 1),
+          next: () => this.generatorHelper(text, currentIndex + 1),
+        };
 
-		return {
-			...toReturn,
-			finished: currentIndex < text.length,
-		};
+        return {
+          ...toReturn,
+          finished: currentIndex < text.length,
+        };
+    }
 	}
 
   render() {
