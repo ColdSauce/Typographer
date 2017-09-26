@@ -1,11 +1,8 @@
 import React from 'react';
 import { storiesOf, action } from '@kadira/storybook';
-import Button from './../src';
+import Typist from './../src';
 
-storiesOf('Button', module)
+storiesOf('Typist', module)
   .add('with text', () => (
-    <Button onClick={action('clicked')}>Hello Button</Button>
-  ))
-  .add('with some emoji', () => (
-    <Button onClick={action('clicked')}>😀 😎 👍 💯</Button>
+    <Typist>Hello Button</Typist>
   ));
