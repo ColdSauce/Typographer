@@ -61,5 +61,8 @@
     "testPathIgnorePatterns": [
       "<rootDir>/(lib|docs|node_modules)/"
     ]
+  },
+  "dependencies": {
+    "babel-preset-stage-2": "^6.24.1"
   }
 }
