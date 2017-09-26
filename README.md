@@ -1,10 +1,17 @@
 # Typographer
 
-React component that simulates a person typing.
+Warning, this is a work in progress. We are going to make it so that this works with child components soon. Right now, you have to manually pass in the text as a prop which is a bit janky. 
+
+Typographer is a React component that simulates a person typing.
 
 ## Installation
 
 `npm install --save typographer`
+
+## Usage
+`<Typographer text="some text you want to write" speed = {20}/>`
+
+Speed is in miliseconds. 
 
 ## Support
 
