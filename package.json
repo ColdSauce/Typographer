@@ -5,6 +5,9 @@
   "main": "lib/index.js",
   "author": "",
   "homepage": "https://github.com/ColdSauce/typographer",
+  "contributors": [
+    "L <lab@mail.rit.edu> (xxx)"
+  ],
   "license": "MIT",
   "repository": {
     "type": "git",
